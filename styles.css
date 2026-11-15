@@ -6,3 +6,8 @@
 .membership-section{padding:100px 10vw;display:grid;grid-template-columns:1fr .85fr;align-items:center;gap:8vw;background:#f7f1e9}.membership-copy{max-width:560px}.membership-copy h2{font:500 clamp(38px,4.5vw,58px)/1.12 'Playfair Display',serif;color:var(--burgundy);margin:16px 0 22px}.membership-copy h2 em{color:#a36b72}.membership-copy>p:not(.eyebrow){font-size:14px;color:var(--muted);max-width:520px}.membership-copy .button{margin-top:14px}.membership-card{background:var(--burgundy);color:var(--ivory);padding:38px 38px 34px;box-shadow:0 18px 45px #4a27301c;position:relative}.membership-card:after{content:'';position:absolute;inset:12px;border:1px solid #d4af3766;pointer-events:none}.membership-card .eyebrow{color:#e6c979}.membership-card h3{font:500 34px/1.15 'Playfair Display',serif;margin:12px 0 20px;color:var(--ivory)}.membership-card ul{padding-left:19px;margin:0 0 22px}.membership-card li{font-size:12px;padding:6px 0;color:#f4e9e1}.membership-note{font-size:10px;color:#e0cfc9;margin:0 0 16px}.membership-card .outline-link{color:var(--ivory);border-color:var(--gold);position:relative;z-index:1}.membership-card>*{position:relative;z-index:1}
 @media(max-width:900px){.membership-section{padding:80px 7vw;gap:5vw}}
 @media(max-width:650px){.membership-section{grid-template-columns:1fr;padding:75px 8vw;gap:35px}.membership-card{padding:32px 25px}}
+
+/* Ensure the monthly rand price is clearly visible on the burgundy membership card. */
+.membership-card .price-line{justify-content:flex-start;align-items:baseline;flex-wrap:wrap;gap:6px 12px;margin:24px 0 18px}
+.membership-card .price-line strong{color:var(--ivory);font-size:34px;display:block}
+.membership-card .price-line span{color:#f0dfd8;font-size:12px}
