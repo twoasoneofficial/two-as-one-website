@@ -8,8 +8,8 @@ A responsive static marketing website for TWO AS ONE, designed for deployment on
 - `script.js` — mobile navigation and footer year
 
 ## Before public launch
-1. Replace the temporary “Ask about the game” email CTA with the confirmed one-time game checkout URL.
-2. Add the monthly membership price and secure subscription checkout URL. The site explains that customers can join immediately after purchasing the first game; there is no planned waiting period.
+1. The one-time game CTA points to `https://access.twoasone.co.za/buy`; deploy the access app and connect that hostname before merging this website update to production.
+2. Monthly membership is shown as planned at R99/month (approximately US$5.99). Do not activate recurring checkout or imply it is live until payment setup is completed.
 3. Confirm that `hello@twoasone.co.za` is a working inbox before publishing the contact links.
 4. Add approved brand logo and product imagery if available.
 
