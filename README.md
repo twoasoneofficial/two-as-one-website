@@ -9,9 +9,8 @@ A responsive static marketing website for TWO AS ONE, designed for deployment on
 
 ## Before public launch
 1. Replace the temporary “Ask about the game” email CTA with the confirmed one-time game checkout URL.
-2. Add the monthly membership price and secure subscription checkout URL. The site explains that customers can join immediately after purchasing the first game; there is no planned waiting period.
-3. Confirm that `hello@twoasone.co.za` is a working inbox before publishing the contact links.
-4. Add approved brand logo and product imagery if available.
+2. Confirm that `hello@twoasone.co.za` is a working inbox before publishing the contact links.
+3. Add approved brand logo and product imagery if available.
 
 ## Cloudflare Pages
 Framework preset: None
